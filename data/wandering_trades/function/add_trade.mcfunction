@@ -2,7 +2,7 @@
 #
 # Called by: wandering_trades:tick
 
-# Trades
+# Player Head Trades
 
 execute if score @s wt_tradeIndex matches 2 run data modify entity @s Offers.Recipes prepend value {rewardExp:0b,maxUses:3,buy:{id:"minecraft:emerald"},sell:{id:"minecraft:player_head",count:1,components:{"minecraft:item_name":'"lCharlie"',"minecraft:rarity":"uncommon","minecraft:profile":{properties:[{name:"textures",value:"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzI4N2UzNjdiMjZmYzMzNTEyNDZkNmQzNDBlN2EyZjlkMDE2ZjQxZmJmMDk5ODU2MzQxYjMxN2Y2OGM4M2QzOSJ9fX0="}]}}}}
 
@@ -35,6 +35,12 @@ execute if score @s wt_tradeIndex matches 15 run data modify entity @s Offers.Re
 execute if score @s wt_tradeIndex matches 16 run data modify entity @s Offers.Recipes prepend value {rewardExp:0b,maxUses:3,buy:{id:"minecraft:emerald"},sell:{id:"minecraft:player_head",count:1,components:{"minecraft:item_name":'"Kingk9"',"minecraft:rarity":"uncommon","minecraft:profile":{properties:[{name:"textures",value:"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODYzM2FhMWJlMzQwNDE3MWFkNjMyNWZmYTFlNmVmZjc0ZThmMDgyNWZiM2Q1ODc4ZTg0NzQwMDU0MjAzMThjNyJ9fX0="}]}}}}
 
 execute if score @s wt_tradeIndex matches 17 run data modify entity @s Offers.Recipes prepend value {rewardExp:0b,maxUses:3,buy:{id:"minecraft:emerald"},sell:{id:"minecraft:player_head",count:1,components:{"minecraft:item_name":'"BoredWoodMan"',"minecraft:rarity":"uncommon","minecraft:profile":{properties:[{name:"textures",value:"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDBiMWFmYjU5YTc4Njc3MGMzNjg0OTFlNGM4MzQ5ZTc2YmQ2YjRkMzM1MjU0OTY2OWI1ZGUzOWE1YTJmNWQ0NyJ9fX0="}]}}}}
+
+execute if score @s wt_tradeIndex matches 17 run data modify entity @s Offers.Recipes prepend value {rewardExp:0b,maxUses:3,buy:{id:"minecraft:emerald"},sell:{id:"minecraft:player_head",count:1,components:{"minecraft:item_name":'"il0v3nik0"',"minecraft:rarity":"uncommon","minecraft:profile":{properties:[{name:"textures",value:"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2NjOTE2OGRiMjZkZTg0ZjEyYTUwZDc4NGM1ODkzZTk1NGU4MzI2MjhhY2NjYTY1ZGY4MjY5YWY1MzBkNjRmMSJ9fX0="}]}}}}
+
+execute if score @s wt_tradeIndex matches 18 run data modify entity @s Offers.Recipes prepend value {rewardExp:0b,maxUses:3,buy:{id:"minecraft:emerald"},sell:{id:"minecraft:player_head",count:1,components:{"minecraft:item_name":'"An1k3t0s"',"minecraft:rarity":"uncommon","minecraft:profile":{properties:[{name:"textures",value:"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTEwMjliNWViMjhkNzI1OGI2NGFlZWQ2NGE2Mjc3YjVlZWM3ZmM5YzEzOWM5NDdmOWEyOTE4NGYzYjViN2EyYiJ9fX0="}]}}}}
+
+# Mini Blocks Below
 
 execute if score @s wt_tradeIndex matches 129 run data modify entity @s Offers.Recipes prepend value {rewardExp:0b,maxUses:1,buy:{id:"minecraft:emerald"},buyB:{id:"minecraft:ender_chest"},sell:{id:"minecraft:player_head",count:8,components:{"minecraft:item_name":'"Mini Ender Chest"',"minecraft:rarity":"uncommon","minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ=="}]}}}}
 
