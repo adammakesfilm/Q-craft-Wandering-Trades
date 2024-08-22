@@ -10,8 +10,8 @@ scoreboard players set @s math_input2 331
 scoreboard players add @s wt_trades 0
 scoreboard players add @s[tag=success] wt_trades 1
 
-title @a title ["Loading... "]
-title @a subtitle [{"score":{"name":"@s","objective":"wt_trades"},"color": "gold"},"/",{"score":{"name":"@s","objective":"math_input2"},"color": "gold"}," trades"]
+# title @a title ["Loading... "]
+# title @a subtitle [{"score":{"name":"@s","objective":"wt_trades"},"color": "gold"},"/",{"score":{"name":"@s","objective":"math_input2"},"color": "gold"}," trades"]
 
 # The amount of random trades the trader will have [+0]
 execute store result score @s wt_random run random value 15..21
